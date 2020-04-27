@@ -1,0 +1,42 @@
+<Manifest>
+  <ProjectInfo>
+    <CodeName>PhDocLicenses_410</CodeName>
+    <Description>PhDocLicenses_410</Description>
+    <DevLead>nathaniel.l.desimone@intel.com</DevLead>
+    <LeadReviewers>
+      <Reviewer>anderson_hsu@phoenix.com</Reviewer>
+    </LeadReviewers>
+  </ProjectInfo>
+
+  <GeneralConfig>
+    <PinPath>PhDocLicenses_410/pins</PinPath>
+    <DefaultCombo combination="master" />
+    <CurrentClonedCombo combination="master" />
+  </GeneralConfig>
+
+  <RemoteList>
+    <!-- The 'name' attribute for each Remote tag must be unique. -->
+    <Remote name="PhDocLicenses_410">https://github.com/AndersonHsuPH/PhDocLicenses_410.git</Remote>
+  </RemoteList>
+
+  <ClientGitHookList>
+  </ClientGitHookList>
+
+  <CommitTemplates>
+  </CommitTemplates>
+
+  <SubmoduleAlternateRemotes>
+  </SubmoduleAlternateRemotes>
+
+  <CombinationList>
+    <Combination name="master" description="the master branch from edk2 Repo, master branch from edk2-platforms repo, master branch from edk2-non-osi repo, master branch from FSP repo">
+      <Source localRoot="PhDocLicenses_410" remote="PhDocLicenses_410" branch="master" sparseCheckout="true" enableSubmodule="true" />
+    </Combination>
+  </CombinationList>
+
+  <DscList>
+    <!-- List of the top-level Dsc's that are used to build this Platform.
+         These files will be parsed by EdkRepo to determine pkg dependencies
+     -->
+  </DscList>
+</Manifest>
