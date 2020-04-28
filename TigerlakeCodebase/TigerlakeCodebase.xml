@@ -1,0 +1,81 @@
+<Manifest>
+  <ProjectInfo>
+    <CodeName>TigerlakeClient</CodeName>
+    <Description>TigerlakeClient</Description>
+    <DevLead>nathaniel.l.desimone@intel.com</DevLead>
+    <LeadReviewers>
+      <Reviewer>anderson_hsu@phoenix.com</Reviewer>
+    </LeadReviewers>
+  </ProjectInfo>
+
+  <GeneralConfig>
+    <PinPath>TigerlakeCodebase/pins</PinPath>
+    <DefaultCombo combination="master" />
+    <CurrentClonedCombo combination="master" />
+  </GeneralConfig>
+
+  <RemoteList>
+    <!-- The 'name' attribute for each Remote tag must be unique. -->
+    <Remote name="TigerlakeClient">https://github.com/AndersonHsuPH/TigerlakeClient.git</Remote>
+    <Remote name="PhBuild_4_2_0">https://github.com/AndersonHsuPH/PhBuild_4_2_0.git</Remote>
+    <Remote name="PhDocLicenses_410">https://github.com/AndersonHsuPH/PhDocLicenses_410.git</Remote>
+    <Remote name="PhDocSDK_410">https://github.com/AndersonHsuPH/PhDocSDK_410.git</Remote>
+    <Remote name="PhPlatformPremiumTgl">https://github.com/AndersonHsuPH/PhPlatformPremiumTgl.git</Remote>
+    <Remote name="PhSiFlashPartUniversal">https://github.com/AndersonHsuPH/PhSiFlashPartUniversal.git</Remote>
+    <Remote name="PhSiI2CDevice">https://github.com/AndersonHsuPH/PhSiI2CDevice.git</Remote>
+     <Remote name="PhSiTigerlakeSg_000">https://github.com/AndersonHsuPH/PhSiTigerlakeSg_000.git</Remote>
+     <Remote name="PhSystem_4_3_0">https://github.com/AndersonHsuPH/PhSystem_4_3_0.git</Remote>
+     <Remote name="PhTigerlakeCommonBoard_000">https://github.com/AndersonHsuPH/PhTigerlakeCommonBoard_000.git</Remote>
+     <Remote name="PhTigerlakePlatform_000">https://github.com/AndersonHsuPH/PhTigerlakePlatform_000.git</Remote>
+     <Remote name="PhTools">https://github.com/AndersonHsuPH/PhTools.git</Remote>
+     <Remote name="PhTools_4_2_0">https://github.com/AndersonHsuPH/PhTools_4_2_0.git</Remote>
+     <Remote name="PhToolsBshp">https://github.com/AndersonHsuPH/PhToolsBshp.git</Remote>
+     <Remote name="PtlmodBaseTools_edk2-stable201908_Tgl">https://github.com/AndersonHsuPH/PtlmodBaseTools_edk2-stable201908_Tgl.git</Remote>
+     <Remote name="PtlmodCore_Udk2019">https://github.com/AndersonHsuPH/PtlmodCore_Udk2019.git</Remote>
+     <Remote name="PtlmodCore_Udk201908_Tgl">https://github.com/AndersonHsuPH/PtlmodCore_Udk201908_Tgl.git</Remote>
+     <Remote name="PtlmodEdk2PlatformsPlatIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsPlatIntel.git</Remote>
+     <Remote name="PtlmodEdk2PlatformsSiIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsSiIntel.git</Remote>
+     <Remote name="PtlmodSi-TGL-Generic-Full">https://github.com/AndersonHsuPH/PtlmodSi-TGL-Generic-Full.git</Remote>
+     <Remote name="SiBinTigerlake">https://github.com/AndersonHsuPH/SiBinTigerlake.git</Remote>
+  </RemoteList>
+
+  <ClientGitHookList>
+  </ClientGitHookList>
+
+  <CommitTemplates>
+  </CommitTemplates>
+
+  <SubmoduleAlternateRemotes>
+  </SubmoduleAlternateRemotes>
+
+  <CombinationList>
+    <Combination name="master" description="the master branch from edk2 Repo, master branch from edk2-platforms repo, master branch from edk2-non-osi repo, master branch from FSP repo">
+      <Source localRoot="TigerlakeClient" remote="TigerlakeClient" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhBuild_4_2_0" remote="PhBuild_4_2_0" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhDocLicenses_410" remote="PhDocLicenses_410" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhDocSDK_410" remote="PhDocSDK_410" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhPlatformPremiumTgl" remote="PhPlatformPremiumTgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhSiFlashPartUniversal" remote="PhSiFlashPartUniversal" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhSiI2CDevice" remote="PhSiI2CDevice" branch="master" sparseCheckout="true" enableSubmodule="true" /> <Source localRoot="PhSiTigerlakeSg_000" remote="PhSiTigerlakeSg_000" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhSystem_4_3_0" remote="PhSystem_4_3_0" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhTigerlakeCommonBoard_000" remote="PhTigerlakeCommonBoard_000" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhTigerlakePlatform_000" remote="PhTigerlakePlatform_000" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhTools" remote="PhTools" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhTools_4_2_0" remote="PhTools_4_2_0" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PhToolsBshp" remote="PhToolsBshp" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodBaseTools_edk2-stable201908_Tgl" remote="PtlmodBaseTools_edk2-stable201908_Tgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodCore_Udk2019" remote="PtlmodCore_Udk2019" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodCore_Udk201908_Tgl" remote="PtlmodCore_Udk201908_Tgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodEdk2PlatformsPlatIntel" remote="PtlmodEdk2PlatformsPlatIntel" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodEdk2PlatformsSiIntel" remote="PtlmodEdk2PlatformsSiIntel" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodSi-TGL-Generic-Full" remote="PtlmodSi-TGL-Generic-Full" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="SiBinTigerlake" remote="SiBinTigerlake" branch="master" sparseCheckout="true" enableSubmodule="true" />
+    </Combination>
+  </CombinationList>
+
+  <DscList>
+    <!-- List of the top-level Dsc's that are used to build this Platform.
+         These files will be parsed by EdkRepo to determine pkg dependencies
+     -->
+  </DscList>
+</Manifest>

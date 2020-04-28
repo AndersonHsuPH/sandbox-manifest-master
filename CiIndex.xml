@@ -1,24 +1,4 @@
 <ProjectList>
   <!-- Fhe 'xmlPath' values should be relative to this file (CiIndex.xml) -->
-  <Project name="TigerlakeClient" xmlPath="TigerlakeClient/TigerlakeClient.xml" />
-  <Project name="PtlmodEdk2PlatformsSiIntel" xmlPath="PtlmodEdk2PlatformsSiIntel/PtlmodEdk2PlatformsSiIntel.xml" />
-  <Project name="PtlmodEdk2PlatformsPlatIntel" xmlPath="PtlmodEdk2PlatformsPlatIntel/PtlmodEdk2PlatformsPlatIntel.xml" />
-  <Project name="PhPlatformPremiumTgl" xmlPath="PhPlatformPremiumTgl/PhPlatformPremiumTgl.xml" />
-  <Project name="PhTigerlakePlatform_000" xmlPath="PhTigerlakePlatform_000/PhTigerlakePlatform_000.xml" />
-  <Project name="SiBinTigerlake" xmlPath="SiBinTigerlake/SiBinTigerlake.xml" />
-  <Project name="PhTigerlakeCommonBoard_000" xmlPath="PhTigerlakeCommonBoard_000/PhTigerlakeCommonBoard_000.xml" />
-  <Project name="PhSiTigerlakeSg_000" xmlPath="PhSiTigerlakeSg_000/PhSiTigerlakeSg_000.xml" />
-  <Project name="PhSiI2CDevice" xmlPath="PhSiI2CDevice/PhSiI2CDevice.xml" />
-  <Project name="PhSiFlashPartUniversal" xmlPath="PhSiFlashPartUniversal/PhSiFlashPartUniversal.xml" />
-  <Project name="PhSystem_4_3_0" xmlPath="PhSystem_4_3_0/PhSystem_4_3_0.xml" />
-  <Project name="PtlmodSi-TGL-Generic-Full" xmlPath="PtlmodSi-TGL-Generic-Full/PtlmodSi-TGL-Generic-Full.xml" />
-  <Project name="PhToolsBshp" xmlPath="PhToolsBshp/PhToolsBshp.xml" />
-  <Project name="PhTools_4_2_0" xmlPath="PhTools_4_2_0/PhTools_4_2_0.xml" />
-  <Project name="PhTools" xmlPath="PhTools/PhTools.xml" />
-  <Project name="PtlmodCore_Udk2019" xmlPath="PtlmodCore_Udk2019/PtlmodCore_Udk2019.xml" />
-  <Project name="PtlmodCore_Udk201908_Tgl" xmlPath="PtlmodCore_Udk201908_Tgl/PtlmodCore_Udk201908_Tgl.xml" />
-  <Project name="PtlmodBaseTools_edk2-stable201908_Tgl" xmlPath="PtlmodBaseTools_edk2-stable201908_Tgl/PtlmodBaseTools_edk2-stable201908_Tgl.xml" />
-  <Project name="PhDocSDK_410" xmlPath="PhDocSDK_410/PhDocSDK_410.xml" />
-  <Project name="PhDocLicenses_410" xmlPath="PhDocLicenses_410/PhDocLicenses_410.xml" />
-  <Project name="PhBuild_4_2_0" xmlPath="PhBuild_4_2_0/PhBuild_4_2_0.xml" />
+  <Project name="Tigerlake_Codebase" xmlPath="TigerlakeCodebase/TigerlakeCodebase.xml" />
 </ProjectList>
