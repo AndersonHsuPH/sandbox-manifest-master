@@ -32,7 +32,7 @@
   <CombinationList>
     <Combination name="master" description="the master branch from edk2 Repo, master branch from edk2-platforms repo, master branch from edk2-non-osi repo, master branch from FSP repo">
       <Source localRoot="Edk2" remote="PtlmodCore_Udk201908_Tgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
-      <Source localRoot="Edk2" remote="PtlmodBaseTools_edk2-stable201908_Tgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="Edk2\BaseTools" remote="PtlmodBaseTools_edk2-stable201908_Tgl" branch="master" sparseCheckout="true" enableSubmodule="true" />
     </Combination>
   </CombinationList>
 
