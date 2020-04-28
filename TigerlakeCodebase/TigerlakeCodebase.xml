@@ -23,20 +23,20 @@
     <Remote name="PhPlatformPremiumTgl">https://github.com/AndersonHsuPH/PhPlatformPremiumTgl.git</Remote>
     <Remote name="PhSiFlashPartUniversal">https://github.com/AndersonHsuPH/PhSiFlashPartUniversal.git</Remote>
     <Remote name="PhSiI2CDevice">https://github.com/AndersonHsuPH/PhSiI2CDevice.git</Remote>
-     <Remote name="PhSiTigerlakeSg_000">https://github.com/AndersonHsuPH/PhSiTigerlakeSg_000.git</Remote>
-     <Remote name="PhSystem_4_3_0">https://github.com/AndersonHsuPH/PhSystem_4_3_0.git</Remote>
-     <Remote name="PhTigerlakeCommonBoard_000">https://github.com/AndersonHsuPH/PhTigerlakeCommonBoard_000.git</Remote>
-     <Remote name="PhTigerlakePlatform_000">https://github.com/AndersonHsuPH/PhTigerlakePlatform_000.git</Remote>
-     <Remote name="PhTools">https://github.com/AndersonHsuPH/PhTools.git</Remote>
-     <Remote name="PhTools_4_2_0">https://github.com/AndersonHsuPH/PhTools_4_2_0.git</Remote>
-     <Remote name="PhToolsBshp">https://github.com/AndersonHsuPH/PhToolsBshp.git</Remote>
-     <Remote name="PtlmodBaseTools_edk2-stable201908_Tgl">https://github.com/AndersonHsuPH/PtlmodBaseTools_edk2-stable201908_Tgl.git</Remote>
-     <Remote name="PtlmodCore_Udk2019">https://github.com/AndersonHsuPH/PtlmodCore_Udk2019.git</Remote>
-     <Remote name="PtlmodCore_Udk201908_Tgl">https://github.com/AndersonHsuPH/PtlmodCore_Udk201908_Tgl.git</Remote>
-     <Remote name="PtlmodEdk2PlatformsPlatIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsPlatIntel.git</Remote>
-     <Remote name="PtlmodEdk2PlatformsSiIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsSiIntel.git</Remote>
-     <Remote name="PtlmodSi-TGL-Generic-Full">https://github.com/AndersonHsuPH/PtlmodSi-TGL-Generic-Full.git</Remote>
-     <Remote name="SiBinTigerlake">https://github.com/AndersonHsuPH/SiBinTigerlake.git</Remote>
+    <Remote name="PhSiTigerlakeSg_000">https://github.com/AndersonHsuPH/PhSiTigerlakeSg_000.git</Remote>
+    <Remote name="PhSystem_4_3_0">https://github.com/AndersonHsuPH/PhSystem_4_3_0.git</Remote>
+    <Remote name="PhTigerlakeCommonBoard_000">https://github.com/AndersonHsuPH/PhTigerlakeCommonBoard_000.git</Remote>
+    <Remote name="PhTigerlakePlatform_000">https://github.com/AndersonHsuPH/PhTigerlakePlatform_000.git</Remote>
+    <Remote name="PhTools">https://github.com/AndersonHsuPH/PhTools.git</Remote>
+    <Remote name="PhTools_4_2_0">https://github.com/AndersonHsuPH/PhTools_4_2_0.git</Remote>
+    <Remote name="PhToolsBshp">https://github.com/AndersonHsuPH/PhToolsBshp.git</Remote>
+    <Remote name="PtlmodBaseTools_edk2-stable201908_Tgl">https://github.com/AndersonHsuPH/PtlmodBaseTools_edk2-stable201908_Tgl.git</Remote>
+    <Remote name="PtlmodCore_Udk2019">https://github.com/AndersonHsuPH/PtlmodCore_Udk2019.git</Remote>
+    <Remote name="PtlmodCore_Udk201908_Tgl">https://github.com/AndersonHsuPH/PtlmodCore_Udk201908_Tgl.git</Remote>
+    <Remote name="PtlmodEdk2PlatformsPlatIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsPlatIntel.git</Remote>
+    <Remote name="PtlmodEdk2PlatformsSiIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsSiIntel.git</Remote>
+    <Remote name="PtlmodSi-TGL-Generic-Full">https://github.com/AndersonHsuPH/PtlmodSi-TGL-Generic-Full.git</Remote>
+    <Remote name="SiBinTigerlake">https://github.com/AndersonHsuPH/SiBinTigerlake.git</Remote>
   </RemoteList>
 
   <ClientGitHookList>
