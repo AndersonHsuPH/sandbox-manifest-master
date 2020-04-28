@@ -1,4 +1,5 @@
 <ProjectList>
   <!-- Fhe 'xmlPath' values should be relative to this file (CiIndex.xml) -->
-  <Project name="Tigerlake_Codebase" xmlPath="Edk2/Edk2.xml" />
+  <Project name="Edk2" xmlPath="Edk2/Edk2.xml" />
+  <Project name="Edk2Platforms" xmlPath="Edk2Platforms/Edk2Platforms.xml" />
 </ProjectList>
