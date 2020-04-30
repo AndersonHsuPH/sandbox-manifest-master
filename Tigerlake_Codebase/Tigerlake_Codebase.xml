@@ -21,6 +21,7 @@
     <Remote name="PtlmodEdk2PlatformsPlatIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsPlatIntel.git</Remote>
     <Remote name="PtlmodEdk2PlatformsSiIntel">https://github.com/AndersonHsuPH/PtlmodEdk2PlatformsSiIntel.git</Remote>
     <Remote name="PtlmodSi-TGL-Generic-Full">https://github.com/AndersonHsuPH/PtlmodSi-TGL-Generic-Full.git</Remote>
+    <Remote name="PtlmodCore_Udk2019">https://github.com/AndersonHsuPH/PtlmodCore_Udk2019.git</Remote>
   </RemoteList>
 
   <ClientGitHookList>
@@ -39,6 +40,7 @@
       <Source localRoot="Edk2Platforms\Platform\Intel" remote="PtlmodEdk2PlatformsPlatIntel" branch="master" sparseCheckout="true" enableSubmodule="true" />
       <Source localRoot="Edk2Platforms\Silicon\Intel" remote="PtlmodEdk2PlatformsSiIntel" branch="master" sparseCheckout="true" enableSubmodule="true" />
       <Source localRoot="Intel" remote="PtlmodSi-TGL-Generic-Full" branch="master" sparseCheckout="true" enableSubmodule="true" />
+      <Source localRoot="PtlmodCore_Udk2019" remote="PtlmodCore_Udk2019" branch="master" sparseCheckout="true" enableSubmodule="true" />
     </Combination>
   </CombinationList>
 
